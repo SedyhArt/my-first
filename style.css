@@ -4,11 +4,20 @@ body {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
+  
+}
+.dark-theme {
   color: #f2f2f2;
-  background-color: #080208;
+  background-color: #4b094b;
   background: url("img/hero-bg.jpg") no-repeat top center fixed;
-  /*background-repeat: no-repeat;
-  background-position: top center;*/
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.light-theme {
+  background-color: white;
+  color: #310909; 
+  background: url("img/hero-bg1.jpg") no-repeat top center fixed;
 }
 
 .container {
@@ -20,6 +29,16 @@ body {
 .page-header {
   margin: 0 0 180px;
   padding: 32px 0 32px;
+}
+
+.theme-button {
+  color: #fea18d;
+  border: none;
+  border-radius: 10%;
+  margin-left: 20px;
+  background: transparent;
+  font-size: 16px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
 }
 
 .page-header .container,
