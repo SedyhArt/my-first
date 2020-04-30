@@ -133,6 +133,14 @@ margin-bottom: 100px;
   background-position: left;
 }
 
+dd.level div.dark-theme {
+   background: white; color: red;
+}
+
+dd.level div.light-theme {
+   background: black; color:pink
+}
+
 .skill-html {
   background-image: url("img/icon-html.svg");
 }
